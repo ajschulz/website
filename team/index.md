@@ -5,8 +5,8 @@ nav:
   tooltip: About Aimee
 ---
 
-<div style="display: flex; align-items: flex-start;">
-  {% include figure.html image="images/headshot.jpg" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;" %}
+<div style="display: flex; align-items: flex-start;"> 
+  {% include figure.html image="images/headshot.jpg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;" %}
   
   <div style="padding-left: 20px;">
     <h1>About Me</h1>
