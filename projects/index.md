@@ -7,10 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Below are current or recent projects that have resulted or will result in a first-author publication.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="publication, resource, teaching" %}
 
 {% include search-info.html %}
 
