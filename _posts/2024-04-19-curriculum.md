@@ -1,5 +1,6 @@
 ---
 title: A Seed Dispersal Game - Curriculum for teaching plant domestication and adaptation
+image: images/photo.jpg
 author: aimee-schulz
 tags: curriculum, outreach
 ---
