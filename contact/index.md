@@ -22,7 +22,7 @@ Please feel free to contact me:
 
 {%
   include figure.html
-  image="images/PAG_talk.jpg"
+  image="images/PAG_talk.JPG"
   caption="Presenting reelGene at PAG 2024"
 %}
 
@@ -32,7 +32,7 @@ Please feel free to contact me:
 
 {%
   include figure.html
-  image="images/canopy.jpg"
+  image="images/canopy.JPG"
   caption="Out in the research field"
 %}
 
