@@ -1,10 +1,46 @@
-<div class="full-width-card">
-  <div class="card-image">
-    <img src="{{ include.data.image }}" alt="{{ include.data.title }}">
-  </div>
+<div class="full-width-card card" data-style="{{ include.style }}">
+  <a
+    {% if include.data.link %}
+      href="{{ include.data.link | relative_url }}"
+    {% endif %}
+    aria-label="{{ include.data.title | default: 'card link' }}"
+    class="card-image"
+  >
+    <img
+      src="{{ include.data.image | relative_url }}"
+      alt="{{ include.data.title | default: 'card image' }}"
+      loading="lazy"
+      {% include fallback.html %}
+    >
+  </a>
+
   <div class="card-text">
-    <h3 class="card-title">{{ include.data.title }}</h3>
-    <h4 class="card-subtitle">{{ include.data.subtitle }}</h4>
-    <p>{{ include.data.description }}</p>
+    {% if include.data.title %}
+      <a
+        {% if include.data.link %}
+          href="{{ include.data.link | relative_url }}"
+        {% endif %}
+        {% if include.data.tooltip %}
+          data-tooltip="{{ include.data.tooltip }}"
+        {% endif %}
+        class="card-title"
+      >
+        {{ include.data.title }}
+      </a>
+    {% endif %}
+
+    {% if include.data.subtitle %}
+      <span class="card-subtitle">{{ include.data.subtitle }}</span>
+    {% endif %}
+
+    {% if include.data.description %}
+      <p>
+        {{ include.data.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      </p>
+    {% endif %}
+
+    {% if include.data.tags or include.data.repo %}
+      {% include tags.html tags=include.data.tags repo=include.data.repo %}
+    {% endif %}
   </div>
 </div>
