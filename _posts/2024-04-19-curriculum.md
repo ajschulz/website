@@ -1,5 +1,5 @@
 ---
-title: A Seed Dispersal Game: Curriculum for teaching plant domestication and adaptation
+title: A Seed Dispersal Game - Curriculum for teaching plant domestication and adaptation
 author: aimee-schulz
 ---
 
