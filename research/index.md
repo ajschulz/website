@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-Below are both preprint and peer-reviewed publications where I am an author. For information on first-author manuscripts in prep, see my current projects.
-
 {% include section.html %}
 
 ## Highlighted
