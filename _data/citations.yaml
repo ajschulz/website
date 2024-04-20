@@ -18,6 +18,8 @@
   plugin: sources.py
   file: sources.yaml
   image: https://www.biorxiv.org/content/biorxiv/early/2024/02/15/2024.02.14.580345/F3.large.jpg
+  extra-links:
+  - type: preprint
 - id: doi:10.1101/2023.11.20.567972
   title: Inbreeding depression leads to reduced fitness in declining populations of
     wild maize
@@ -33,6 +35,8 @@
   plugin: sources.py
   file: sources.yaml
   image: https://www.biorxiv.org/content/biorxiv/early/2023/11/21/2023.11.20.567972/F4.large.jpg
+  extra-links:
+  - type: preprint
 - id: doi:10.1101/2023.09.19.558246
   title: 'Fishing for a reelGene: evaluating gene models with evolution and machine
     learning'
@@ -63,6 +67,8 @@
   plugin: sources.py
   file: sources.yaml
   image: https://www.biorxiv.org/content/biorxiv/early/2023/09/29/2023.09.19.558246/F1.large.jpg
+  extra-links:
+  - type: preprint
 - id: doi:10.1093/molbev/msac239
   title: Allele-specific Expression Reveals Multiple Paths to Highland Adaptation
     in Maize
@@ -85,3 +91,5 @@
   plugin: sources.py
   file: sources.yaml
   image: https://academic.oup.com/view-large/figure/382845833/msac239f1.tif
+  extra-links:
+  - type: journal
