@@ -26,7 +26,7 @@ I have collaborated and written first-author manuscripts on a variety of topics 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/cropsTalk.jpg"
   link="research"
   title="My Publications"
   text=text
@@ -49,7 +49,7 @@ My current projects largely look at the Andropogoneae, gene model annotations, a
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/IMG_6533_med.jpg"
   link="projects"
   title="My Current Projects"
   flip=true
