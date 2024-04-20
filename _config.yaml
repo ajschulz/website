@@ -36,7 +36,8 @@ defaults:
 collections:
   # generate page for each member
   members:
-    output: true
+    output: false
+    # change to true when actually changing
   # generate page for each post
   posts:
     output: true
