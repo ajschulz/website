@@ -9,15 +9,6 @@ nav:
 
 {% include section.html %}
 
-# {% include list.html data="members" component="portrait" filters="role: PhD Candidate" %}
-
----
-name: Aimee Schulz
-image: images/headshot.jpg
-role: PhD Candidate
-links:
-  orcid: 0000-0002-3709-9898
----
 {% capture content %}
 
 {% include figure.html image="images/headshot.jpg" %}
