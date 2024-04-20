@@ -2,32 +2,46 @@
 ---
 
 .full-width-card {
-  display: flex;
+  display: inline-flex;
+  justify-content: stretch;
+  align-items: center;
   flex-direction: column;
   width: 100%;
-  margin: 20px 0;
+  max-width: calc(100% - 20px - 20px);
+  margin: 20px;
   background: var(--background);
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
+  vertical-align: top;
 }
 
-.full-width-card .card-image img {
+.full-width-card-image img {
   aspect-ratio: 3 / 2;
   object-fit: cover;
   width: 100%;
 }
 
-.full-width-card .card-text {
-  display: flex;
+.full-width-card-text {
+ display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
   gap: 20px;
+  max-width: 100%;
   padding: 20px;
-  text-align: left;
 }
 
-.full-width-card .card-title,
-.full-width-card .card-subtitle {
-  margin: 0;
-  padding: 0;
+.full-width-card-text > * {
+  margin: 0 !important;
+}
+
+.full-width-card-title {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
+.full-width-card-subtitle {
+  margin-top: -10px !important;
+  font-style: italic;
 }
