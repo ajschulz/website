@@ -32,7 +32,7 @@ Please feel free to contact me:
 
 {%
   include figure.html
-  image="images/canopy.JPG"
+  image="images/harvest.jpg"
   caption="Out in the research field"
 %}
 
