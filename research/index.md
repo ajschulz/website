@@ -5,9 +5,9 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-Preprint and peer-reviewed articles
+Below are both preprint and peer-reviewed publications where I am an author. For information on first-author manuscripts in prep, see my current projects.
 
 {% include section.html %}
 
