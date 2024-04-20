@@ -1,7 +1,7 @@
 ---
 ---
 
-# Aimee Schulz's Website
+# NSF Graduate Research Fellow at Cornell University
 
 
 
