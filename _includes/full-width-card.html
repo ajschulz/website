@@ -1,18 +1,20 @@
-<div class="full-width-card card" data-style="{{ include.style }}">
+<div class="full-width-card" data-style="{{ include.style }}">
   <a
-    {% if include.data.link %}
-      href="{{ include.data.link | relative_url }}"
+    {% if include.link %}
+      href="{{ include.link | relative_url }}"
     {% endif %}
-    aria-label="{{ include.data.title | default: 'card link' }}"
+    aria-label="{{ include.title | default: "card link" }}"
     class="card-image"
   >
     <img
-      src="{{ include.data.image | relative_url }}"
-      alt="{{ include.data.title | default: 'card image' }}"
+      src="{{ include.image | relative_url }}"
+      alt="{{ include.title | default: "card image" }}"
       loading="lazy"
       {% include fallback.html %}
     >
   </a>
+
+  
 
   <div class="card-text">
     {% if include.data.title %}
