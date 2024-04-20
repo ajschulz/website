@@ -1,15 +1,13 @@
 ---
-title: Team
+title: About Me
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: About Aimee
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Test info here
 
 {% include section.html %}
 
