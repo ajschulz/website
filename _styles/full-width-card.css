@@ -1,0 +1,32 @@
+.full-width-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+  background: var(--background);
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.full-width-card .card-image img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  width: 100%;
+}
+
+.full-width-card .card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.full-width-card .card-title,
+.full-width-card .card-subtitle {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=full-width-card.css.map */
