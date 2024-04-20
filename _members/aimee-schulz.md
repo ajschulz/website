@@ -1,6 +1,6 @@
 ---
 name: Aimee Schulz
-image: images/photo.jpg
+image: images/headshot.jpg
 role: PhD Candidate
 links:
   orcid: 0000-0002-3709-9898
