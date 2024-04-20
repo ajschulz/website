@@ -1,1 +1,1 @@
-Sitemap: https://ajschulz.github.io/website/sitemap.xml
+Sitemap: https://ajschulz.github.io/sitemap.xml
