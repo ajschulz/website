@@ -4,18 +4,16 @@
     {% if include.link %}
       href="{{ include.link | relative_url }}"
     {% endif %}
-    aria-label="{{ include.title | default: "card link" }}"
-    class="card-image"
+    aria-label="{{ include.title | default: "full-width-card link" }}"
+    class="full-width-card-image"
   >
     <img
       src="{{ include.image | relative_url }}"
-      alt="{{ include.title | default: "card image" }}"
+      alt="{{ include.title | default: "full-width-card image" }}"
       loading="lazy"
       {% include fallback.html %}
     >
   </a>
-
-  
 
   <div class="card-text">
     {% if include.data.title %}
@@ -26,14 +24,14 @@
         {% if include.data.tooltip %}
           data-tooltip="{{ include.data.tooltip }}"
         {% endif %}
-        class="card-title"
+        class="full-width-card-title"
       >
         {{ include.data.title }}
       </a>
     {% endif %}
 
     {% if include.data.subtitle %}
-      <span class="card-subtitle">{{ include.data.subtitle }}</span>
+      <span class="full-width-card-subtitle">{{ include.data.subtitle }}</span>
     {% endif %}
 
     {% if include.data.description %}
