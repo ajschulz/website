@@ -1,47 +1,34 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Intraspecific Competition Dynamics in US Maize
+  subtitle: Dissertation Chapter
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: Evaluating neighbor row effects on yield and plant height of focal rows, as well as the impact of mixing multiple hybrids together within the same plot.
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: reelGene
+  subtitle: Dissertation Chapter
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: Machine learning models to evaluate gene model annotations in maize and predict if they produce a functional protein.
+  repo: bitbucket.org/bucklerlab/p_reelgene/src/master/
   tags:
     - resource
     - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
+- title: The genetics of perenniality across the Andropogoneae
+  subtitle: Dissertation Chapter
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: Leveraging over 500 Andropogoneae species to conduct an across-species association study for perenniality.
   tags:
-    - software
+    - resource
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: Plant Domestication and Adaptation Curriculum
+  subtitle: Developed for grades 3-12
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://www.maizegenetics.net/game
+  description: Fully developed curriculum that can be used in classrooms and in outreach demos.
+  repo: bitbucket.org/bucklerlab/seed_dispersal_game/src/master/
   tags:
-    - software
+    - curriculum
+    - outreach
