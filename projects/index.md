@@ -13,18 +13,14 @@ Below are current or recent projects that have resulted or will result in a firs
 
 {% include search-info.html %}
 
+{% include section.html %}
+
 ## Featured
 
-{% for project in site.data.projects %}
-  {% if project.group == 'featured' %}
-    {% include full-width-card.html data=project %}
-  {% endif %}
-{% endfor %}
+{% include list.html component="card" data="projects" filters="group: featured" %}
+
+{% include section.html %}
 
 ## More
 
-{% for project in site.data.projects %}
-  {% if project.group != 'featured' %}
-    {% include full-width-card.html data=project %}
-  {% endif %}
-{% endfor %}
+{% include list.html component="card" data="projects" filters="group: " style="full" %}
