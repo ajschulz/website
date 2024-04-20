@@ -1,5 +1,5 @@
 
-# ajschulzDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# Code for generating my website
 
 Visit **[ajschulz.github.io](https://ajschulz.github.io)** 🚀
 
