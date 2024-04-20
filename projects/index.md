@@ -25,6 +25,6 @@ Below are current or recent projects that have resulted or will result in a firs
 
 {% for project in site.data.projects %}
   {% if project.group != 'featured' %}
-    {% include full-width-card.html data=project style="small" %}
+    {% include full-width-card.html data=project %}
   {% endif %}
 {% endfor %}
