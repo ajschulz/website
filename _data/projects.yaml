@@ -1,15 +1,8 @@
 - title: Intraspecific competition dynamics in US Maize lines
   subtitle: Dissertation Chapter
   image: images/competition.jpg
-  description: Extensive yield variation can occur between two genetically identical maize plants grown in the same field. 
-  Interactions with neighboring plants, or intraspecific competition, can impact plant phenotypes and potentially cause some of this variation. 
-  To investigate the extent that intraspecific competition between neighboring inbred or hybrid plants contributes to yield variation, we leveraged historical field data and conducted a two-year field experiment mixing different hybrids together within the same plot, compared to the standard monoculture of a single hybrid per plot. 
-  With the historical data of inbred and hybrid fields, we determined how the genotypes of neighboring rows impact the yield, plant height, and leaf angle of the center focal row. We also evaluated the genetic effect of neighboring rows using a competition mixed model. 
-  Across both methods, we found that 1-3% of the total variance of height or yield was attributed to neighbors. 
-  We grew a two-year mixed plot experiment across five locations and collected plant architecture traits and yield measurements to explore how mixtures of hybrids perform compared to conventional homogeneous plots. 
-  We found no significant deviation in yield within the mixed plots compared to the average yield of the pair of hybrids grown conventionally in the larger G2F experiment. 
-  Over the last century, maize breeders have selected for more cooperative genotypes within a genetic monoculture, and this research suggests that cooperativeness extends between different genotypes. 
-  Since we find no yield penalty, these results are promising for future investigations of hybrid mixtures that may complement each other in disease resistance and increase yield stability in the field.
+  description: |
+    Extensive yield variation can occur between two genetically identical maize plants grown in the same field. Interactions with neighboring plants, or intraspecific competition, can impact plant phenotypes and potentially cause some of this variation. To investigate the extent that intraspecific competition between neighboring inbred or hybrid plants contributes to yield variation, we leveraged historical field data and conducted a two-year field experiment mixing different hybrids together within the same plot, compared to the standard monoculture of a single hybrid per plot. With the historical data of inbred and hybrid fields, we determined how the genotypes of neighboring rows impact the yield, plant height, and leaf angle of the center focal row. We also evaluated the genetic effect of neighboring rows using a competition mixed model. Across both methods, we found that 1-3% of the total variance of height or yield was attributed to neighbors. We grew a two-year mixed plot experiment across five locations and collected plant architecture traits and yield measurements to explore how mixtures of hybrids perform compared to conventional homogeneous plots. We found no significant deviation in yield within the mixed plots compared to the average yield of the pair of hybrids grown conventionally in the larger G2F experiment. Over the last century, maize breeders have selected for more cooperative genotypes within a genetic monoculture, and this research suggests that cooperativeness extends between different genotypes. Since we find no yield penalty, these results are promising for future investigations of hybrid mixtures that may complement each other in disease resistance and increase yield stability in the field.
   tags:
     - research
 
@@ -18,12 +11,8 @@
   group: featured
   link: https://www.biorxiv.org/content/10.1101/2023.09.19.558246v2
   image: images/reelGeneLogo.png
-  description: Assembled genomes and their associated annotations have transformed our study of gene function. However, each new assembly generates new gene models. 
-  Inconsistencies between annotations likely arise from biological and technical causes, including pseudogene misclassification, transposon activity, and intron retention from sequencing of unspliced transcripts. 
-  To evaluate gene model predictions, we developed reelGene, a pipeline of machine learning models focused on (1) transcription boundaries, (2) mRNA integrity, and (3) protein structure. 
-  The first two models leverage sequence characteristics and evolutionary conservation across related taxa to learn the grammar of conserved transcription boundaries and mRNA sequences, while the third uses conserved evolutionary grammar of protein sequences to predict whether a gene can produce a protein. 
-  Evaluating 1.8 million gene models in maize, reelGene found that 28% were incorrectly annotated or nonfunctional. 
-  By leveraging a large cohort of related species and through learning the conserved grammar of proteins, reelGene provides a tool for both evaluating gene model accuracy and genome biology. 
+  description: |
+    Assembled genomes and their associated annotations have transformed our study of gene function. However, each new assembly generates new gene models. Inconsistencies between annotations likely arise from biological and technical causes, including pseudogene misclassification, transposon activity, and intron retention from sequencing of unspliced transcripts. To evaluate gene model predictions, we developed reelGene, a pipeline of machine learning models focused on (1) transcription boundaries, (2) mRNA integrity, and (3) protein structure. The first two models leverage sequence characteristics and evolutionary conservation across related taxa to learn the grammar of conserved transcription boundaries and mRNA sequences, while the third uses conserved evolutionary grammar of protein sequences to predict whether a gene can produce a protein. Evaluating 1.8 million gene models in maize, reelGene found that 28% were incorrectly annotated or nonfunctional. By leveraging a large cohort of related species and through learning the conserved grammar of proteins, reelGene provides a tool for both evaluating gene model accuracy and genome biology.
   repo: bitbucket.org/bucklerlab/p_reelgene/src/master/
   tags:
     - research
@@ -33,17 +22,8 @@
   subtitle: Dissertation Chapter
   group: featured
   image: images/perennialTree.png
-  description: The Andropogoneae tribe contains some of the most productive C4 grasses relevant to agriculture, including maize, Miscanthus, sorghum, and sugar cane and has adapted to a wide host of environments. 
-  Notably, while most of these species are perennial, there have been dozens of transitions to an annual life history. 
-  Perennials have multiple traits that can be harnessed to confer an advantage to agricultural crops, reducing their environmental impact, such as nitrogen remobilization and freezing tolerance. 
-  Many of these favorable traits are hypothesized to have been lost during the transition to annuality. 
-  We have previously shown that within orthogroups, annual genes are enriched for reduced sequence conservation and premature stop codons, adding support for the loss-of-function hypothesis during perennial-annual transitions.  
-  In this study, we further test this hypothesis by leveraging an expanded set of 533 short read and 38 long read Andropogoneae genomes to investigate the genetic basis of perennial-to-annual transitions across the tribe. 
-  This set of genomes allows us to test a greater number of transitions and identify instances of repeated loss of function. 
-  Using phylogenetic mixed models, we identified genes associated with perenniality across species. 
-  Additionally, we identified orthogroups with differential selection constraint in annuals and perennials. 
-  Since it is hypothesized that changes in the environment lead to changes in life history, our models were further expanded to include environmental data to determine environmental associations with the perennial growth habit. 
-  These models will provide insight into the ecological niches of perennials and annuals. The results from this research will provide a launching point for future work to understand the adaptive potential of perennials and develop maize varieties that are more perennial-like and better adapted for climate change.
+  description: |
+    The Andropogoneae tribe contains some of the most productive C4 grasses relevant to agriculture, including maize, Miscanthus, sorghum, and sugar cane and has adapted to a wide host of environments. Notably, while most of these species are perennial, there have been dozens of transitions to an annual life history. Perennials have multiple traits that can be harnessed to confer an advantage to agricultural crops, reducing their environmental impact, such as nitrogen remobilization and freezing tolerance. Many of these favorable traits are hypothesized to have been lost during the transition to annuality. We have previously shown that within orthogroups, annual genes are enriched for reduced sequence conservation and premature stop codons, adding support for the loss-of-function hypothesis during perennial-annual transitions. In this study, we further test this hypothesis by leveraging an expanded set of 533 short read and 38 long read Andropogoneae genomes to investigate the genetic basis of perennial-to-annual transitions across the tribe. This set of genomes allows us to test a greater number of transitions and identify instances of repeated loss of function. Using phylogenetic mixed models, we identified genes associated with perenniality across species. Additionally, we identified orthogroups with differential selection constraint in annuals and perennials. Since it is hypothesized that changes in the environment lead to changes in life history, our models were further expanded to include environmental data to determine environmental associations with the perennial growth habit. These models will provide insight into the ecological niches of perennials and annuals. The results from this research will provide a launching point for future work to understand the adaptive potential of perennials and develop maize varieties that are more perennial-like and better adapted for climate change.
   tags:
     - research
 
@@ -51,34 +31,19 @@
   subtitle: Developed for grades 3-12
   image: images/teaching.jpg
   link: https://www.maizegenetics.net/game
-  description: We have developed an engaging, flexible curriculum for teaching plant domestication and adaptation to students of all grade levels that meets numerous National Next Generation Science Standards. 
-  This activity, using miscellaneous craft supplies and a leaf blower, is both low-cost and easy to implement, and segues well into further lessons on plant science, Indigenous agriculture, plant domestication, plant breeding, and evolution. 
-  The activity is also really fun and makes for an engaging, dynamic learning experience that can be used at science workshops and in classrooms. 
-  The game starts with students designing, building, and testing seeds developed for dispersal in the wild. 
-  Next, students mimic the process of domestication by optimizing their designs to create seeds that are more easily harvestable. With our curriculum, students accomplish the following learning goals;
-  1) Understand that modern crops were domesticated by Indigenous farmers 10,000 years ago.
-  2) Learn that limiting plant seed dispersal was a large driver for plant domestication in response to farmers’ needs.
-  3) Visualize that plants use multiple adaptations and methods to accomplish seed dispersal.
-  4) Identify that traits can be selected upon, both naturally and artificially, and that plant domestication often selects for differing traits than natural selection. 
-  We have found that this activity gets students of all ages excited about plants and encourages them to think critically about the roles that domestication has played in our current food system. The entire curriculum (lesson plans, presentation, room setup guide, and supplies list) is available at maizegenetics.net. 
-
+  description: |
+    We have developed an engaging, flexible curriculum for teaching plant domestication and adaptation to students of all grade levels that meets numerous National Next Generation Science Standards. This activity, using miscellaneous craft supplies and a leaf blower, is both low-cost and easy to implement, and segues well into further lessons on plant science, Indigenous agriculture, plant domestication, plant breeding, and evolution. The activity is also really fun and makes for an engaging, dynamic learning experience that can be used at science workshops and in classrooms. The game starts with students designing, building, and testing seeds developed for dispersal in the wild. Next, students mimic the process of domestication by optimizing their designs to create seeds that are more easily harvestable. With our curriculum, students accomplish the following learning goals; 1) Understand that modern crops were domesticated by Indigenous farmers 10,000 years ago. 2) Learn that limiting plant seed dispersal was a large driver for plant domestication in response to farmers’ needs. 3) Visualize that plants use multiple adaptations and methods to accomplish seed dispersal. 4) Identify that traits can be selected upon, both naturally and artificially, and that plant domestication often selects for differing traits than natural selection. We have found that this activity gets students of all ages excited about plants and encourages them to think critically about the roles that domestication has played in our current food system. The entire curriculum (lesson plans, presentation, room setup guide, and supplies list) is available at maizegenetics.net.
   repo: bitbucket.org/bucklerlab/seed_dispersal_game/src/master/
   tags:
     - curriculum
     - outreach
 
-- title: Inbreeding depression leads to reduced fitness in declining populations of wild maize 
+- title: Inbreeding depression leads to reduced fitness in declining populations of wild maize
   subtitle: Undergraduate research
   image: images/inbreedingLogo.png
   link: https://www.biorxiv.org/content/10.1101/2023.11.20.567972v1
-  description: Crop wild relatives can serve as a source of variation for the genetic improvement of modern varieties. 
-  However, the realization of this genetic potential depends critically on the conservation of wild populations. 
-  In this study, five populations of Zea mays ssp. parviglumis, the closest relative of domesticated maize, were collected in Jalisco, Mexico and planted in a common garden. 
-  Eleven traits related to plant fitness were measured and evaluated in the context of genetic diversity and genetic load. 
-  Plants whose seed were sourced from larger, less disturbed populations had greater genetic diversity, lower genetic load, and possessed phenotypes associated with higher fitness, while plants sourced from smaller, heavily impacted populations had traits characteristic of lower fitness and increased genetic load. 
-  For example, plants from larger populations germinated more quickly, reached anthesis sooner, demonstrated a higher level of photosynthetic activity, and produced more above-ground biomass, suggesting a direct correlation between the fitness of a population, genetic diversity, and genetic load. 
-  These results emphasize the importance of preserving the habitat of populations of Zea mays ssp. parviglumis to limit inbreeding depression and maintain the genetic diversity and adaptive potential of this germplasm.
+  description: |
+    Crop wild relatives can serve as a source of variation for the genetic improvement of modern varieties. However, the realization of this genetic potential depends critically on the conservation of wild populations. In this study, five populations of Zea mays ssp. parviglumis, the closest relative of domesticated maize, were collected in Jalisco, Mexico and planted in a common garden. Eleven traits related to plant fitness were measured and evaluated in the context of genetic diversity and genetic load. Plants whose seed were sourced from larger, less disturbed populations had greater genetic diversity, lower genetic load, and possessed phenotypes associated with higher fitness, while plants sourced from smaller, heavily impacted populations had traits characteristic of lower fitness and increased genetic load. For example, plants from larger populations germinated more quickly, reached anthesis sooner, demonstrated a higher level of photosynthetic activity, and produced more above-ground biomass, suggesting a direct correlation between the fitness of a population, genetic diversity, and genetic load. These results emphasize the importance of preserving the habitat of populations of Zea mays ssp. parviglumis to limit inbreeding depression and maintain the genetic diversity and adaptive potential of this germplasm.
   tags:
     - research
     - publication
-  
