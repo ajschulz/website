@@ -1,15 +1,23 @@
 # Mullers Ratchet
 - id: doi:10.1101/2024.02.14.580345
   image: https://www.biorxiv.org/content/biorxiv/early/2024/02/15/2024.02.14.580345/F3.large.jpg
+  extra-links:
+    - type: preprint
   
 # Inbreeding   
 - id: doi:10.1101/2023.11.20.567972
   image: https://www.biorxiv.org/content/biorxiv/early/2023/11/21/2023.11.20.567972/F4.large.jpg
+  extra-links:
+    - type: preprint
 
 # ReelGene
 - id: doi:10.1101/2023.09.19.558246
   image: https://www.biorxiv.org/content/biorxiv/early/2023/09/29/2023.09.19.558246/F1.large.jpg
+  extra-links:
+    - type: preprint
 
 # HiLo ASE
 - id: doi:10.1093/molbev/msac239
   image: https://academic.oup.com/view-large/figure/382845833/msac239f1.tif
+  extra-links:
+    - type: journal
