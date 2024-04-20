@@ -7,8 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Please feel free to contact me:
-
 {%
   include button.html
   type="email"
