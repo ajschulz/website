@@ -1,11 +1,11 @@
 ---
-title: Projects
+title: Research Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Current and past projects
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Research Projects
 
 Below are current or recent projects that have resulted or will result in a first-author publication.
 
