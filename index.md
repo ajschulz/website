@@ -11,12 +11,12 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+I have collaborated and written first-author manuscripts on a variety of topics covering evolutionary genetics, machine learning, and quantitative genetics.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See my publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -28,18 +28,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="research"
-  title="Our Research"
+  title="My Publications"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+My current projects largely look at the Andropogoneae, gene model annotations, and the genetics of perenniality. 
 
 {%
   include button.html
   link="projects"
-  text="Browse our projects"
+  text="Browse my projects"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -51,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Our Projects"
+  title="My Current Projects"
   flip=true
   style="bare"
   text=text
