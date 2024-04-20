@@ -17,7 +17,7 @@ Below are current or recent projects that have resulted or will result in a firs
 
 ## Featured
 
-{% include list.html component="card" data="projects" filters="group: featured" %}
+{% include list.html component="card" data="projects" filters="group: featured" style="full" %}
 
 {% include section.html %}
 
