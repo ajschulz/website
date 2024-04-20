@@ -9,7 +9,7 @@ nav:
 
 Below are current or recent projects that have resulted or will result in a first-author publication.
 
-{% include tags.html tags="publication, resource, teaching" %}
+{% include tags.html tags="publication, research, teaching" %}
 
 {% include search-info.html %}
 
