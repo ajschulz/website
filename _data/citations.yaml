@@ -1,30 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2024.06.03.597142
-  title: 'Contrasting Rhizosphere Nitrogen Dynamics in Andropogoneae Grasses: Implications
-    for Sustainable Agriculture'
-  authors:
-  - Sheng-Kai Hsu
-  - Bryan D Emmett
-  - Alexandria J Haffke
-  - Germano Costa-Neto
-  - Aimee J Schulz
-  - Nicholas Lepak
-  - Thuy La
-  - Taylor M AuBuchon-Elder
-  - Charles O Hale
-  - Sierra S Raglin
-  - Jonathan O Ojeda-Rivera
-  - Angela D Kent
-  - Elizabeth A Kellogg
-  - M Cinta Romay
-  - Edward S Buckler
-  publisher: Cold Spring Harbor Laboratory
-  date: '2024-06-03'
-  link: https://doi.org/gtxzwb
-  orcid: 0000-0002-3709-9898
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1101/2024.02.14.580345
   title: "Muller\u2019s Ratchet in Action: The Erosion of Sexual Reproduction Genes\
     \ in Domesticated Cassava (<i>Manihot esculenta</i>)"
